@@ -64,9 +64,11 @@ export default function Footer() {
           {/* About */}
           <div>
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 rounded-full bg-gradient-to-br from-sky-blue to-emerald flex items-center justify-center">
-                <Heart className="h-5 w-5 text-white" />
-              </div>
+              <img
+                src="/images/logo.png"
+                alt="Umeed e Shumaal Logo"
+                className="h-10 w-auto object-contain rounded-lg brightness-0 invert"
+              />
               <div>
                 <h3 className="font-bold text-lg">Umeed e Shumaal</h3>
                 <p className="text-xs text-white/60">Hope of the North</p>

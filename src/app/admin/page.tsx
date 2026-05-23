@@ -136,9 +136,11 @@ export default function AdminPage() {
           className="w-full max-w-md"
         >
           <div className="text-center mb-8">
-            <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-sky-blue to-emerald flex items-center justify-center mb-4">
-              <Heart className="h-8 w-8 text-white" />
-            </div>
+            <img
+              src="/images/logo.png"
+              alt="Umeed e Shumaal Logo"
+              className="w-20 h-20 mx-auto object-contain mb-4 drop-shadow-lg rounded-xl"
+            />
             <h1 className="text-2xl font-bold text-white">Umeed e Shumaal Admin Panel</h1>
             <p className="text-white/60 mt-1">Founded by Fatima Baneen</p>
           </div>
@@ -206,9 +208,11 @@ export default function AdminPage() {
           <div className="p-4 border-b border-white/10">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-full bg-gradient-to-br from-sky-blue to-emerald flex items-center justify-center">
-                  <Heart className="h-4 w-4 text-white" />
-                </div>
+                <img
+                  src="/images/logo.png"
+                  alt="Umeed e Shumaal"
+                  className="h-8 w-8 object-contain rounded-lg brightness-0 invert"
+                />
                 <span className="font-bold text-sm">Umeed e Shumaal</span>
               </div>
               <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-white/60">

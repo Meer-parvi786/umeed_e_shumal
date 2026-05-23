@@ -62,13 +62,12 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
-            <Link href="#home" className="flex items-center gap-2 group">
-              <div className="relative">
-                <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-full bg-gradient-to-br from-sky-blue to-emerald flex items-center justify-center">
-                  <Heart className="h-5 w-5 lg:h-6 lg:w-6 text-white" />
-                </div>
-                <div className="absolute -top-1 -right-1 w-3 h-3 bg-warm-gold rounded-full animate-pulse" />
-              </div>
+            <Link href="#home" className="flex items-center gap-3 group">
+              <img
+                src="/images/logo.png"
+                alt="Umeed e Shumaal Logo"
+                className="h-10 lg:h-12 w-auto object-contain rounded-lg drop-shadow-md group-hover:scale-105 transition-transform duration-300"
+              />
               <div className="hidden sm:block">
                 <h1 className={`text-sm lg:text-base font-bold leading-tight transition-colors ${
                   isScrolled ? 'text-deep-blue dark:text-white' : 'text-deep-blue dark:text-white'
