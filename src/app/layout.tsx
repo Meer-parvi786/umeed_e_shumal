@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     "volunteer Skardu",
     "underprivileged families Pakistan",
   ],
-  authors: [{ name: "Umeed e Shumaal" }]
+  authors: [{ name: "Umeed e Shumaal" }],
   openGraph: {
     title: "Umeed e Shumaal",
     description: "Together We Can Change Lives - A youth-led welfare initiative in Skardu, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen.",

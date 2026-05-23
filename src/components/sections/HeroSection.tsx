@@ -58,7 +58,7 @@ export default function HeroSection() {
             className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md border border-white/20 text-white px-5 py-2 rounded-full text-sm font-medium mb-6"
           >
             <Heart className="h-4 w-4 text-red-400" />
-            Youth-Led Welfare Initiative in Skardu
+            Umeed e Shumaal — Youth-Led Welfare Initiative in Skardu
           </motion.div>
         </motion.div>
 
@@ -78,7 +78,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-lg sm:text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu.
+          Founded by Fatima Baneen — A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu.
         </motion.p>
 
         <motion.div

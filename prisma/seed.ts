@@ -19,8 +19,8 @@ async function seed() {
 
   // Create team members
   const teamMembers = [
-    { name: 'Ahmed Ali', position: 'President / Chairman', bio: 'A passionate youth leader dedicated to transforming lives in Skardu through community service and welfare initiatives.', displayOrder: 1 },
-    { name: 'Fatima Noor', position: 'Vice President', bio: 'Co-leading the foundation with a focus on sustainable development and empowering women and children in underserved communities.', displayOrder: 2 },
+    { name: 'Fatima Baneen', position: 'Founder & President', bio: 'The visionary founder of Umeed e Shumaal, a passionate youth leader dedicated to transforming lives in Skardu through community service, education, and compassion.', displayOrder: 1 },
+    { name: 'Fatima Noor', position: 'Vice President', bio: 'Co-leading Umeed e Shumaal with a focus on sustainable development and empowering women and children in underserved communities.', displayOrder: 2 },
     { name: 'Hassan Khan', position: 'General Secretary', bio: 'Managing day-to-day operations and ensuring smooth coordination across all departments and volunteer teams.', displayOrder: 3 },
     { name: 'Amina Begum', position: 'Finance Secretary', bio: 'Overseeing all financial operations with complete transparency and accountability for every donation received.', displayOrder: 4 },
     { name: 'Bilal Shah', position: 'Media & PR Lead', bio: 'Amplifying our mission through social media, press coverage, and community outreach to build lasting partnerships.', displayOrder: 5 },
@@ -71,25 +71,25 @@ async function seed() {
       id: 'test-2',
       name: 'Zubaida Bibi',
       role: 'Community Elder',
-      content: 'The medical camp organized by SYWF saved many lives in our remote village. The youth of Skardu are doing extraordinary work for their community.',
+      content: 'The medical camp organized by Umeed e Shumaal saved many lives in our remote village. Fatima Baneen and her team are doing extraordinary work for our community. May Allah bless them all.',
     },
     {
       id: 'test-3',
       name: 'Ali Raza',
       role: 'Volunteer',
-      content: 'Volunteering with SYWF has been the most rewarding experience of my life. Seeing the smiles on children\'s faces when they receive school supplies is priceless.',
+      content: 'Volunteering with Umeed e Shumaal has been the most rewarding experience of my life. Seeing the smiles on children\'s faces when they receive school supplies is priceless. This is what real change looks like.',
     },
     {
       id: 'test-4',
       name: 'Dr. Shahzad',
       role: 'Medical Volunteer',
-      content: 'I have been part of multiple medical camps with SYWF. The organization is transparent, well-organized, and truly dedicated to serving the people of Skardu.',
+      content: 'I have been part of multiple medical camps with Umeed e Shumaal. The organization founded by Fatima Baneen is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
     },
     {
       id: 'test-5',
       name: 'Sana Mir',
       role: 'Donor',
-      content: 'I trust SYWF completely with my donations. They provide detailed reports and I can see the direct impact of every contribution on the community.',
+      content: 'I trust Umeed e Shumaal completely with my donations. They provide detailed reports and I can see the direct impact of every contribution on the community. It feels great to be part of this noble mission.',
     },
   ];
 
@@ -153,8 +153,8 @@ async function seed() {
       id: 'blog-2',
       title: 'Education Scholarships Awarded to 100 Deserving Students',
       slug: 'education-scholarships-awarded',
-      excerpt: 'SYWF has awarded educational scholarships to 100 deserving students across Skardu district, enabling them to pursue their dreams.',
-      content: 'In our commitment to promoting education in the region, SYWF has awarded full and partial scholarships to 100 deserving students. These scholarships cover tuition fees, books, uniforms, and other educational expenses. The selection process was rigorous and transparent, ensuring that the most deserving students received support.',
+      excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Skardu district, enabling them to pursue their dreams.',
+      content: 'In our commitment to promoting education in the region, Umeed e Shumaal has awarded full and partial scholarships to 100 deserving students. These scholarships cover tuition fees, books, uniforms, and other educational expenses. The selection process was rigorous and transparent, ensuring that the most deserving students received support.',
       category: 'education',
       isFeatured: true,
       isPublished: true,
@@ -164,7 +164,7 @@ async function seed() {
       title: 'Free Medical Camp in Roundu Valley',
       slug: 'medical-camp-roundu-valley',
       excerpt: 'A comprehensive medical camp was organized in Roundu Valley, providing free consultations and medicines to over 500 patients.',
-      content: 'In collaboration with local healthcare professionals, SYWF organized a two-day medical camp in Roundu Valley. The camp provided free general health consultations, pediatric check-ups, dental care, eye examinations, and free medicines. Over 500 patients from surrounding villages benefited from this initiative.',
+      content: 'In collaboration with local healthcare professionals, Umeed e Shumaal organized a two-day medical camp in Roundu Valley. The camp provided free general health consultations, pediatric check-ups, dental care, eye examinations, and free medicines. Over 500 patients from surrounding villages benefited from this initiative.',
       category: 'health',
       isFeatured: false,
       isPublished: true,

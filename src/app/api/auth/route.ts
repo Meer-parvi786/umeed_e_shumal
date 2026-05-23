@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { compare } from 'bcryptjs';
 import { SignJWT } from 'jose';
 
-const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'sywf-super-secret-key-change-in-production');
+const JWT_SECRET = new TextEncoder().encode(process.env.JWT_SECRET || 'umeed-secret-key-change-in-production');
 
 export async function POST(request: NextRequest) {
   try {
