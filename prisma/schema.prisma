@@ -1,0 +1,138 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id        String   @id @default(cuid())
+  username  String   @unique
+  password  String
+  name      String
+  role      String   @default("admin")
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model TeamMember {
+  id          String   @id @default(cuid())
+  name        String
+  position    String
+  bio         String   @default("")
+  image       String   @default("")
+  facebook    String   @default("")
+  twitter     String   @default("")
+  instagram   String   @default("")
+  linkedin    String   @default("")
+  displayOrder Int     @default(0)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model BlogPost {
+  id          String   @id @default(cuid())
+  title       String
+  slug        String   @unique
+  excerpt     String   @default("")
+  content     String   @default("")
+  category    String   @default("general")
+  image       String   @default("")
+  isFeatured  Boolean  @default(false)
+  isPublished Boolean  @default(false)
+  authorId    String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model GalleryImage {
+  id          String   @id @default(cuid())
+  title       String   @default("")
+  description String   @default("")
+  image       String
+  category    String   @default("general")
+  displayOrder Int     @default(0)
+  createdAt   DateTime @default(now())
+}
+
+model VolunteerApplication {
+  id          String   @id @default(cuid())
+  fullName    String
+  gender      String
+  city        String
+  skills      String
+  availability String
+  phone       String
+  email       String
+  reason      String   @default("")
+  status      String   @default("pending")
+  createdAt   DateTime @default(now())
+}
+
+model Donation {
+  id            String   @id @default(cuid())
+  donorName     String   @default("Anonymous")
+  donorEmail    String   @default("")
+  amount        Float
+  currency      String   @default("PKR")
+  type          String   @default("one-time")
+  campaign      String   @default("")
+  message       String   @default("")
+  status        String   @default("completed")
+  createdAt     DateTime @default(now())
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  subject   String
+  message   String
+  isRead    Boolean  @default(false)
+  createdAt DateTime @default(now())
+}
+
+model ImpactStat {
+  id    String @id @default(cuid())
+  key   String @unique
+  label String
+  value Int
+  icon  String @default("")
+  updatedAt DateTime @updatedAt
+}
+
+model Testimonial {
+  id          String   @id @default(cuid())
+  name        String
+  role        String
+  content     String
+  image       String   @default("")
+  rating      Int      @default(5)
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Campaign {
+  id            String   @id @default(cuid())
+  title         String
+  description   String
+  goalAmount    Float
+  raisedAmount  Float    @default(0)
+  image         String   @default("")
+  startDate     DateTime?
+  endDate       DateTime?
+  isActive      Boolean  @default(true)
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model NewsletterSubscription {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  isActive  Boolean  @default(true)
+  createdAt DateTime @default(now())
+}
