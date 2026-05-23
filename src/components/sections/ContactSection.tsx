@@ -12,7 +12,7 @@ import { toast } from 'sonner';
 const contactInfo = [
   { icon: MapPin, label: 'Office Address', value: 'Main Bazaar, Skardu, Gilgit-Baltistan, Pakistan' },
   { icon: Phone, label: 'Phone Number', value: '+92-300-0000000' },
-  { icon: Mail, label: 'Email Address', value: 'info@sywf.org.pk' },
+  { icon: Mail, label: 'Email Address', value: 'info@umeedeshumaal.org' },
   { icon: Clock, label: 'Working Hours', value: 'Mon - Sat: 9:00 AM - 6:00 PM' },
 ];
 
@@ -102,7 +102,7 @@ export default function ContactSection() {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="SYWF Location"
+                title="Umeed e Shumaal Location"
               />
             </div>
           </motion.div>

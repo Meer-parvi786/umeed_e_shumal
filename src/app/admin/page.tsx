@@ -139,8 +139,8 @@ export default function AdminPage() {
             <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-sky-blue to-emerald flex items-center justify-center mb-4">
               <Heart className="h-8 w-8 text-white" />
             </div>
-            <h1 className="text-2xl font-bold text-white">SYWF Admin Panel</h1>
-            <p className="text-white/60 mt-1">Skardu Youth Welfare Foundation</p>
+            <h1 className="text-2xl font-bold text-white">Umeed e Shumaal Admin Panel</h1>
+            <p className="text-white/60 mt-1">Founded by Fatima Baneen</p>
           </div>
 
           <form onSubmit={handleLogin} className="glass rounded-2xl p-8">
@@ -209,7 +209,7 @@ export default function AdminPage() {
                 <div className="w-8 h-8 rounded-full bg-gradient-to-br from-sky-blue to-emerald flex items-center justify-center">
                   <Heart className="h-4 w-4 text-white" />
                 </div>
-                <span className="font-bold text-sm">SYWF Admin</span>
+                <span className="font-bold text-sm">Umeed e Shumaal</span>
               </div>
               <button onClick={() => setSidebarOpen(false)} className="lg:hidden text-white/60">
                 <X className="h-5 w-5" />

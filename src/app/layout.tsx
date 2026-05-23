@@ -15,12 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Skardu Youth Welfare Foundation | SYWF - Together We Change Lives",
+  title: "Umeed e Shumaal | Together We Change Lives",
   description:
-    "A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Donate, volunteer, and help us build a better community.",
+    "Umeed e Shumaal - A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen. Donate, volunteer, and help us build a better community.",
   keywords: [
-    "SYWF",
-    "Skardu Youth Welfare Foundation",
+    "Umeed e Shumaal",
+    "Fatima Baneen",
     "Skardu charity",
     "Gilgit-Baltistan welfare",
     "Pakistan NGO",
@@ -30,18 +30,18 @@ export const metadata: Metadata = {
     "volunteer Skardu",
     "underprivileged families Pakistan",
   ],
-  authors: [{ name: "Skardu Youth Welfare Foundation" }],
+  authors: [{ name: "Umeed e Shumaal" }]
   openGraph: {
-    title: "Skardu Youth Welfare Foundation",
-    description: "Together We Can Change Lives - A youth-led welfare initiative in Skardu, Gilgit-Baltistan, Pakistan.",
+    title: "Umeed e Shumaal",
+    description: "Together We Can Change Lives - A youth-led welfare initiative in Skardu, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen.",
     type: "website",
     locale: "en_PK",
-    siteName: "SYWF",
+    siteName: "Umeed e Shumaal",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Skardu Youth Welfare Foundation",
-    description: "Together We Can Change Lives - Youth-led welfare initiative in Skardu.",
+    title: "Umeed e Shumaal",
+    description: "Together We Can Change Lives - Youth-led welfare initiative in Skardu. Founded by Fatima Baneen.",
   },
 };
 

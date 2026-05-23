@@ -16,8 +16,8 @@ interface TeamMemberData {
 }
 
 const teamMembers: TeamMemberData[] = [
-  { name: 'Ahmed Ali', position: 'President / Chairman', bio: 'A passionate youth leader dedicated to transforming lives in Skardu through community service.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Fatima Noor', position: 'Vice President', bio: 'Co-leading the foundation with a focus on sustainable development and empowering women.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Fatima Baneen', position: 'Founder & President', bio: 'The visionary founder of Umeed e Shumaal, Fatima Baneen is a passionate youth leader dedicated to transforming lives in Skardu through community service, education, and compassion.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Fatima Noor', position: 'Vice President', bio: 'Co-leading Umeed e Shumaal with a focus on sustainable development and empowering women and children in underserved communities.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
   { name: 'Hassan Khan', position: 'General Secretary', bio: 'Managing day-to-day operations and ensuring smooth coordination across all departments.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
   { name: 'Amina Begum', position: 'Finance Secretary', bio: 'Overseeing all financial operations with complete transparency and accountability.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
   { name: 'Bilal Shah', position: 'Media & PR Lead', bio: 'Amplifying our mission through social media and community outreach.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },

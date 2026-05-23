@@ -68,12 +68,12 @@ export default function Footer() {
                 <Heart className="h-5 w-5 text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-lg">SYWF</h3>
-                <p className="text-xs text-white/60">Youth Welfare Foundation</p>
+                <h3 className="font-bold text-lg">Umeed e Shumaal</h3>
+                <p className="text-xs text-white/60">Hope of the North</p>
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
+              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Fatima Baneen, supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
             </p>
             <div className="flex items-center gap-3 mt-6">
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Facebook">
@@ -119,7 +119,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-white/70">
                 <Mail className="h-4 w-4 text-sky-blue shrink-0" />
-                <span>info@sywf.org.pk</span>
+                <span>info@umeedeshumaal.org</span>
               </li>
             </ul>
           </div>
@@ -156,7 +156,7 @@ export default function Footer() {
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between gap-2">
           <p className="text-white/50 text-sm text-center">
-            &copy; {new Date().getFullYear()} Skardu Youth Welfare Foundation. All rights reserved.
+            &copy; {new Date().getFullYear()} Umeed e Shumaal. All rights reserved.
           </p>
           <button
             onClick={scrollToTop}

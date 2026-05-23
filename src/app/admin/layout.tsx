@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Admin Dashboard | SYWF",
-  description: "Skardu Youth Welfare Foundation - Admin Dashboard",
+  title: "Admin Dashboard | Umeed e Shumaal",
+  description: "Umeed e Shumaal - Admin Dashboard",
 };
 
 export default function AdminLayout({

@@ -8,7 +8,7 @@ const blogPosts = [
   {
     title: 'Winter Relief Drive Successfully Completed in Skardu',
     slug: 'winter-relief-drive-completed',
-    excerpt: 'Our volunteers distributed warm clothing and food supplies to over 300 families across remote villages in the Skardu district.',
+    excerpt: 'Our volunteers distributed warm clothing and food supplies to over 300 families across remote villages in the Skardu district under Umeed e Shumaal initiative.',
     category: 'Campaigns',
     image: '/images/community-help.jpg',
     date: 'Dec 15, 2025',
@@ -17,7 +17,7 @@ const blogPosts = [
   {
     title: 'Education Scholarships Awarded to 100 Deserving Students',
     slug: 'education-scholarships-awarded',
-    excerpt: 'SYWF has awarded educational scholarships to 100 deserving students across Skardu district, enabling them to pursue their dreams.',
+    excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Skardu district, enabling them to pursue their dreams.',
     category: 'Education',
     image: '/images/education-support.jpg',
     date: 'Nov 28, 2025',
@@ -26,7 +26,7 @@ const blogPosts = [
   {
     title: 'Free Medical Camp in Roundu Valley',
     slug: 'medical-camp-roundu-valley',
-    excerpt: 'A comprehensive medical camp was organized in Roundu Valley, providing free consultations and medicines to over 500 patients.',
+    excerpt: 'A comprehensive medical camp was organized by Umeed e Shumaal in Roundu Valley, providing free consultations and medicines to over 500 patients.',
     category: 'Health',
     image: '/images/medical-camp.jpg',
     date: 'Oct 10, 2025',

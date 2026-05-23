@@ -43,7 +43,7 @@ export default function AboutSection() {
             <span className="gradient-text">Changing Futures</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            The Skardu Youth Welfare Foundation (SYWF) is a grassroots, youth-led organization founded with a simple yet powerful mission: to uplift underprivileged families, support deserving students, and provide healthcare assistance to the people of Skardu and surrounding areas in Gilgit-Baltistan, Pakistan.
+            Umeed e Shumaal (Hope of the North) is a grassroots, youth-led organization founded by Fatima Baneen with a simple yet powerful mission: to uplift underprivileged families, support deserving students, and provide healthcare assistance to the people of Skardu and surrounding areas in Gilgit-Baltistan, Pakistan.
           </p>
         </motion.div>
 
@@ -63,7 +63,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-white/80 leading-relaxed">
-                To empower the youth of Skardu to become agents of positive change by providing a platform for education, healthcare, welfare, and community development. We strive to create a society where every family has access to basic necessities, every child has the opportunity to receive quality education, and every individual can live with dignity and hope for a better tomorrow.
+                Founded by Fatima Baneen, Umeed e Shumaal aims to empower the youth of Skardu to become agents of positive change by providing a platform for education, healthcare, welfare, and community development. We strive to create a society where every family has access to basic necessities, every child has the opportunity to receive quality education, and every individual can live with dignity and hope for a better tomorrow. Our foundation stands as a beacon of hope for the people of Gilgit-Baltistan.
               </p>
             </div>
           </motion.div>
@@ -82,7 +82,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-white/80 leading-relaxed">
-                A Skardu where no family goes hungry, no child is deprived of education, and no individual is denied basic healthcare. We envision a community that is self-sufficient, educated, healthy, and united in the spirit of compassion and service. Through collective effort and youth leadership, we aim to transform Skardu into a model of community-driven development in Gilgit-Baltistan.
+                A Skardu where no family goes hungry, no child is deprived of education, and no individual is denied basic healthcare. Under the leadership of Fatima Baneen, we envision a community that is self-sufficient, educated, healthy, and united in the spirit of compassion and service. Through collective effort and youth leadership, we aim to transform Skardu into a model of community-driven development in Gilgit-Baltistan.
               </p>
             </div>
           </motion.div>
