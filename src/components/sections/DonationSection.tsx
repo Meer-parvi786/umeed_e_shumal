@@ -33,7 +33,7 @@ export default function DonationSection() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    const amount = selectedAmount || parseInt(formData.amount) || 0;
+    const amount = selectedAmount || Number.parseInt(formData.amount) || 0;
     if (amount <= 0) {
       toast.error('Please select or enter a donation amount.');
       return;
@@ -182,7 +182,7 @@ export default function DonationSection() {
 
               <Button
                 type="submit"
-                className="w-full bg-gradient-to-r from-emerald to-emerald-dark hover:from-emerald-dark hover:to-emerald text-white py-6 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
+                className="w-full bg-linear-to-r from-emerald to-emerald-dark hover:from-emerald-dark hover:to-emerald text-white py-6 text-lg font-bold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
               >
                 <Heart className="h-5 w-5 mr-2" />
                 Donate {selectedAmount ? `PKR ${selectedAmount.toLocaleString()}` : 'Now'}{' '}
@@ -253,7 +253,7 @@ export default function DonationSection() {
                           initial={{ width: 0 }}
                           animate={isInView ? { width: `${pct}%` } : {}}
                           transition={{ duration: 1.2, delay: 0.5 }}
-                          className="h-full bg-gradient-to-r from-emerald to-sky-blue rounded-full"
+                          className="h-full bg-linear-to-r from-emerald to-sky-blue rounded-full"
                         />
                       </div>
                       <div className="flex justify-between mt-1">
