@@ -11,7 +11,7 @@ import { toast } from 'sonner';
 
 const contactInfo = [
   { icon: MapPin, label: 'Office Address', value: 'Main Bazaar, Skardu, Gilgit-Baltistan, Pakistan' },
-  { icon: Phone, label: 'Phone Number', value: '+92-300-0000000' },
+  { icon: Phone, label: 'Phone Number', value: '+92-307-8582373' },
   { icon: Mail, label: 'Email Address', value: 'info@umeedeshumaal.org' },
   { icon: Clock, label: 'Working Hours', value: 'Mon - Sat: 9:00 AM - 6:00 PM' },
 ];

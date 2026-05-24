@@ -42,7 +42,7 @@ export default function Footer() {
   return (
     <footer className="bg-deep-blue text-white relative">
       {/* Donate CTA Banner */}
-      <div className="bg-gradient-to-r from-emerald to-emerald-dark">
+      <div className="bg-linear-to-r from-emerald to-emerald-dark">
         <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <h3 className="text-xl md:text-2xl font-bold text-white">Every Contribution Makes a Difference</h3>
@@ -75,7 +75,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Fatima Baneen, supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
+              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Rehan, supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
             </p>
             <div className="flex items-center gap-3 mt-6">
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Facebook">
@@ -117,7 +117,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3 text-sm text-white/70">
                 <Phone className="h-4 w-4 text-sky-blue shrink-0" />
-                <span>+92-300-0000000</span>
+                <span>+92-307-8582373</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-white/70">
                 <Mail className="h-4 w-4 text-sky-blue shrink-0" />
@@ -172,7 +172,7 @@ export default function Footer() {
 
       {/* Floating WhatsApp Button */}
       <a
-        href="https://wa.me/923000000000"
+        href="https://wa.me/923078582373"
         target="_blank"
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-all duration-300"

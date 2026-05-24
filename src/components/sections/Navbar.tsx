@@ -38,7 +38,7 @@ export default function Navbar() {
           <div className="flex items-center gap-4">
             <span className="flex items-center gap-1">
               <Phone className="h-3 w-3" />
-              +92-300-0000000
+              +92-307-8582373
             </span>
             <span>|</span>
             <span>info@umeedeshumal.org</span>
@@ -65,7 +65,7 @@ export default function Navbar() {
             <Link href="#home" className="flex items-center gap-3 group">
               <img
                 src="/images/logo.png"
-                alt="Umeed e Shumaal Logo"
+                alt="Umeed e Shumal Logo"
                 className="h-10 lg:h-12 w-auto object-contain rounded-lg drop-shadow-md group-hover:scale-105 transition-transform duration-300"
               />
               <div className="hidden sm:block">
@@ -101,7 +101,7 @@ export default function Navbar() {
             <div className="flex items-center gap-3">
               <a
                 href="#donate"
-                className="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-emerald to-emerald-dark hover:from-emerald-dark hover:to-emerald text-white px-4 lg:px-6 py-2 lg:py-2.5 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+                className="hidden sm:inline-flex items-center gap-2 bg-linear-to-r from-emerald to-emerald-dark hover:from-emerald-dark hover:to-emerald text-white px-4 lg:px-6 py-2 lg:py-2.5 rounded-full text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
               >
                 <Heart className="h-4 w-4" />
                 Donate Now
