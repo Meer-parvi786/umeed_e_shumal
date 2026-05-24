@@ -1,7 +1,6 @@
 'use client';
 
-import { motion } from 'framer-motion';
-import { useInView } from 'framer-motion';
+import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { Target, Eye, Shield, Users, BookOpen, Heart } from 'lucide-react';
 
@@ -16,7 +15,7 @@ const fadeUp = {
 
 const values = [
   { icon: Shield, title: 'Transparency', desc: 'Every donation is tracked and reported. We maintain complete financial transparency with our donors and community members.' },
-  { icon: Users, title: 'Youth-Led', desc: 'Driven by passionate young leaders of Skardu who understand the needs of their community and are committed to making a difference.' },
+  { icon: Users, title: 'Youth-Led', desc: 'Driven by passionate young leaders of Gilgit Baltistan who understand the needs of their community and are committed to making a difference.' },
   { icon: Heart, title: 'Compassion', desc: 'We approach every individual and family with empathy and respect, understanding that dignity is as important as the help we provide.' },
   { icon: BookOpen, title: 'Education First', desc: 'We believe education is the most powerful tool for change. Our programs prioritize educational support for underprivileged children.' },
 ];
@@ -43,7 +42,7 @@ export default function AboutSection() {
             <span className="gradient-text">Changing Futures</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Umeed e Shumaal (Hope of the North) is a grassroots, youth-led organization founded by Fatima Baneen with a simple yet powerful mission: to uplift underprivileged families, support deserving students, and provide healthcare assistance to the people of Skardu and surrounding areas in Gilgit-Baltistan, Pakistan.
+            Umeed e Shumal (Hope of the North) is a grassroots, youth-led organization founded by Fatima Baneen with a simple yet powerful mission: to uplift underprivileged families, support deserving students, and provide healthcare assistance to the people of Gilgit Baltistan and surrounding areas in Gilgit-Baltistan, Pakistan.
           </p>
         </motion.div>
 
@@ -54,7 +53,7 @@ export default function AboutSection() {
             variants={fadeUp}
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}
-            className="bg-gradient-to-br from-deep-blue to-[#1a3f7a] rounded-2xl p-8 md:p-10 text-white relative overflow-hidden"
+            className="bg-linear-to-br from-deep-blue to-[#1a3f7a] rounded-2xl p-8 md:p-10 text-white relative overflow-hidden"
           >
             <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
             <div className="relative z-10">
@@ -63,7 +62,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-white/80 leading-relaxed">
-                Founded by Fatima Baneen, Umeed e Shumaal aims to empower the youth of Skardu to become agents of positive change by providing a platform for education, healthcare, welfare, and community development. We strive to create a society where every family has access to basic necessities, every child has the opportunity to receive quality education, and every individual can live with dignity and hope for a better tomorrow. Our foundation stands as a beacon of hope for the people of Gilgit-Baltistan.
+                Founded by Fatima Baneen, Umeed e Shumal aims to empower the youth of Gilgit Baltistan to become agents of positive change by providing a platform for education, healthcare, welfare, and community development. We strive to create a society where every family has access to basic necessities, every child has the opportunity to receive quality education, and every individual can live with dignity and hope for a better tomorrow. Our foundation stands as a beacon of hope for the people of Gilgit-Baltistan.
               </p>
             </div>
           </motion.div>
@@ -73,7 +72,7 @@ export default function AboutSection() {
             variants={fadeUp}
             initial="hidden"
             animate={isInView ? 'visible' : 'hidden'}
-            className="bg-gradient-to-br from-emerald to-emerald-dark rounded-2xl p-8 md:p-10 text-white relative overflow-hidden"
+            className="bg-linear-to-br from-emerald to-emerald-dark rounded-2xl p-8 md:p-10 text-white relative overflow-hidden"
           >
             <div className="absolute top-0 right-0 w-40 h-40 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2" />
             <div className="relative z-10">
@@ -82,7 +81,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-white/80 leading-relaxed">
-                A Skardu where no family goes hungry, no child is deprived of education, and no individual is denied basic healthcare. Under the leadership of Fatima Baneen, we envision a community that is self-sufficient, educated, healthy, and united in the spirit of compassion and service. Through collective effort and youth leadership, we aim to transform Skardu into a model of community-driven development in Gilgit-Baltistan.
+                A Gilgit Baltistan where no family goes hungry, no child is deprived of education, and no individual is denied basic healthcare. Under the leadership of Fatima Baneen, we envision a community that is self-sufficient, educated, healthy, and united in the spirit of compassion and service. Through collective effort and youth leadership, we aim to transform Gilgit Baltistan into a model of community-driven development in Gilgit-Baltistan.
               </p>
             </div>
           </motion.div>

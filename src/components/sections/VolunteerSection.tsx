@@ -2,7 +2,7 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useRef, useState } from 'react';
-import { UserCheck, Users, Mail, Phone, MapPin, Briefcase, Clock, MessageSquare } from 'lucide-react';
+import { UserCheck, Users, Briefcase } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -86,7 +86,7 @@ export default function VolunteerSection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="lg:col-span-2 space-y-6"
           >
-            <div className="bg-gradient-to-br from-deep-blue to-[#1a3f7a] rounded-2xl p-8 text-white">
+            <div className="bg-linear-to-br from-deep-blue to-[#1a3f7a] rounded-2xl p-8 text-white">
               <UserCheck className="h-10 w-10 text-sky-blue mb-4" />
               <h3 className="text-xl font-bold mb-3">Why Volunteer With Us?</h3>
               <ul className="space-y-3 text-white/80 text-sm">
@@ -251,7 +251,7 @@ export default function VolunteerSection() {
               <Button
                 type="submit"
                 disabled={isSubmitting}
-                className="w-full bg-gradient-to-r from-sky-blue to-deep-blue hover:from-deep-blue hover:to-sky-blue text-white py-6 text-lg font-bold rounded-xl shadow-lg transition-all duration-300"
+                className="w-full bg-linear-to-r from-sky-blue to-deep-blue hover:from-deep-blue hover:to-sky-blue text-white py-6 text-lg font-bold rounded-xl shadow-lg transition-all duration-300"
               >
                 {isSubmitting ? 'Submitting...' : 'Submit Application'}
               </Button>

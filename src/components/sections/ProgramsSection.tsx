@@ -9,7 +9,7 @@ const programs = [
     icon: GraduationCap,
     title: 'Education Support',
     subtitle: 'Empowering through knowledge',
-    desc: 'We provide scholarships, school supplies, tuition support, and mentoring programs to deserving students in Skardu. Our goal is to ensure that financial constraints never stand in the way of a child\'s education and dreams.',
+    desc: 'We provide scholarships, school supplies, tuition support, and mentoring programs to deserving students in Gilgit Baltistan. Our goal is to ensure that financial constraints never stand in the way of a child\'s education and dreams.',
     features: ['Scholarships for deserving students', 'School supplies distribution', 'After-school tutoring programs', 'Career counseling & mentoring'],
     gradient: 'from-blue-500 to-sky-blue',
     bgLight: 'bg-blue-50',
@@ -72,7 +72,7 @@ export default function ProgramsSection() {
             Making a <span className="gradient-text">Real Difference</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Our programs are designed to address the most pressing needs of the Skardu community, from education and healthcare to food security and youth empowerment.
+            Our programs are designed to address the most pressing needs of the Gilgit Baltistan community, from education and healthcare to food security and youth empowerment.
           </p>
         </motion.div>
 

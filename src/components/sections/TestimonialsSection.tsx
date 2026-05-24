@@ -8,31 +8,31 @@ const testimonials = [
   {
     name: 'Muhammad Aslam',
     role: 'Beneficiary Father',
-    content: 'The foundation founded by Fatima Baneen supported my children\'s education when I could not afford it. They gave us hope and a brighter future. I am forever grateful to the young volunteers who came to our village.',
+    content: 'The foundation founded by Rehan supported my children\'s education when I could not afford it. They gave us hope and a brighter future. I am forever grateful to the young volunteers who came to our village.',
     rating: 5,
   },
   {
     name: 'Zubaida Bibi',
     role: 'Community Elder',
-    content: 'The medical camp organized by Umeed e Shumaal saved many lives in our remote village. Fatima Baneen and her team are doing extraordinary work for our community. May Allah bless them all.',
+    content: 'The medical camp organized by Umeed e Shumal saved many lives in our remote village. Rehan and her team are doing extraordinary work for our community. May Allah bless them all.',
     rating: 5,
   },
   {
     name: 'Ali Raza',
     role: 'Volunteer',
-    content: 'Volunteering with Umeed e Shumaal has been the most rewarding experience of my life. Seeing the smiles on children\'s faces when they receive school supplies is priceless. This is what real change looks like.',
+    content: 'Volunteering with Umeed e Shumal has been the most rewarding experience of my life. Seeing the smiles on children\'s faces when they receive school supplies is priceless. This is what real change looks like.',
     rating: 5,
   },
   {
     name: 'Dr. Shahzad',
     role: 'Medical Volunteer',
-    content: 'I have been part of multiple medical camps with Umeed e Shumaal. The organization founded by Fatima Baneen is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
+    content: 'I have been part of multiple medical camps with Umeed e Shumal. The organization founded by Rehan is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
     rating: 5,
   },
   {
     name: 'Sana Mir',
     role: 'Donor',
-    content: 'I trust Umeed e Shumaal completely with my donations. They provide detailed reports and I can see the direct impact of every contribution on the community. It feels great to be part of this noble mission.',
+    content: 'I trust Umeed e Shumal completely with my donations. They provide detailed reports and I can see the direct impact of every contribution on the community. It feels great to be part of this noble mission.',
     rating: 5,
   },
 ];
@@ -115,7 +115,7 @@ export default function TestimonialsSection() {
 
               {/* Author */}
               <div className="flex items-center justify-center gap-4">
-                <div className={`w-14 h-14 rounded-full bg-gradient-to-br ${avatarColors[current % avatarColors.length]} flex items-center justify-center text-white font-bold text-lg shadow-lg`}>
+                <div className={`w-14 h-14 rounded-full bg-linear-to-br ${avatarColors[current % avatarColors.length]} flex items-center justify-center text-white font-bold text-lg shadow-lg`}>
                   {t.name.split(' ').map(n => n[0]).join('')}
                 </div>
                 <div>

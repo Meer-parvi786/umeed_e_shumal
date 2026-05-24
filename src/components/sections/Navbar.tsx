@@ -41,7 +41,7 @@ export default function Navbar() {
               +92-300-0000000
             </span>
             <span>|</span>
-            <span>info@umeedeshumaal.org</span>
+            <span>info@umeedeshumal.org</span>
           </div>
           <div className="flex items-center gap-4">
             <span>Skardu, Gilgit-Baltistan, Pakistan</span>
@@ -72,7 +72,7 @@ export default function Navbar() {
                 <h1 className={`text-sm lg:text-base font-bold leading-tight transition-colors ${
                   isScrolled ? 'text-deep-blue dark:text-white' : 'text-deep-blue dark:text-white'
                 }`}>
-                  Umeed e Shumaal
+                  Umeed e Shumal
                 </h1>
                 <p className={`text-[10px] lg:text-xs transition-colors ${
                   isScrolled ? 'text-sky-blue/70' : 'text-sky-blue/70'

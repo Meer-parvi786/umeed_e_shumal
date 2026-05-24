@@ -16,16 +16,18 @@ interface TeamMemberData {
 }
 
 const teamMembers: TeamMemberData[] = [
-  { name: 'Fatima Baneen', position: 'Founder & President', bio: 'The visionary founder of Umeed e Shumaal, Fatima Baneen is a passionate youth leader dedicated to transforming lives in Skardu through community service, education, and compassion.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Fatima Noor', position: 'Vice President', bio: 'Co-leading Umeed e Shumaal with a focus on sustainable development and empowering women and children in underserved communities.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Hassan Khan', position: 'General Secretary', bio: 'Managing day-to-day operations and ensuring smooth coordination across all departments.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Amina Begum', position: 'Finance Secretary', bio: 'Overseeing all financial operations with complete transparency and accountability.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Bilal Shah', position: 'Media & PR Lead', bio: 'Amplifying our mission through social media and community outreach.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Zainab Fatima', position: 'Field Operations Lead', bio: 'Leading on-ground welfare activities across the Skardu region.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Usman Wazir', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Sara Hussain', position: 'Education Lead', bio: 'Managing scholarship programs and educational support for students.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Dr. Kamran', position: 'Health & Welfare Lead', bio: 'Organizing medical camps and emergency medical support.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Tariq Baig', position: 'Logistics & Support', bio: 'Ensuring smooth supply chains for all foundation activities.', image: '', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Rehan', position: 'President', bio: 'Rehan is a passionate youth leader dedicated to transforming lives in Gilgit Baltistan through community service, education, and compassion.', image: '/images/Rehan.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Siddiqa', position: 'Vice President', bio: 'Co-leading Umeed e Shumal with a focus on sustainable development and empowering women and children in underserved communities.', image: '/images/Siddiqa.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Musa Kaleem', position: 'General Secretary', bio: 'Managing day-to-day operations and ensuring smooth coordination across all departments.', image: '/images/Musa.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Syed Abbas', position: 'Finance Secretary', bio: 'Overseeing all financial operations with complete transparency and accountability.', image: '/images/Abbas.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Shima Marzia', position: 'Media & PR Lead', bio: 'Amplifying our mission through social media and community outreach.', image: '/images/Shima.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Muhammad Nasir', position: 'Field Operations Lead', bio: 'Leading on-ground welfare activities across the Gilgit Baltistan region.', image: '/images/Nasir.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Dr. Kalimal', position: 'Health & Welfare Lead', bio: 'Organizing medical camps and emergency medical support.', image: '/images/Kalimal.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Syeda Huda', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Huda.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Ismat Fatima', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Ismat.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Konain', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Konain.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Diya', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Diya.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Mudassir', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Mudassir.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
 ];
 
 const colors = [
@@ -61,7 +63,7 @@ export default function TeamSection() {
             Meet the <span className="gradient-text">Passionate Leaders</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Our dedicated team of young leaders works tirelessly to bring hope and support to communities across Skardu.
+            Our dedicated team of young leaders works tirelessly to bring hope and support to communities across Gilgit Baltistan.
           </p>
         </motion.div>
 
@@ -75,12 +77,26 @@ export default function TeamSection() {
               className="group bg-white dark:bg-gray-900 rounded-2xl overflow-hidden shadow-sm hover:shadow-xl border border-gray-100 dark:border-gray-800 hover:-translate-y-2 transition-all duration-300"
             >
               {/* Avatar area */}
-              <div className={`relative h-44 bg-gradient-to-br ${colors[i % colors.length]} flex items-center justify-center overflow-hidden`}>
-                <div className="w-20 h-20 rounded-full bg-white/90 dark:bg-gray-800 flex items-center justify-center text-2xl font-bold text-deep-blue dark:text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
-                  {member.name.split(' ').map(n => n[0]).join('')}
-                </div>
-                <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
-              </div>
+              <div
+  className={`relative h-44 bg-linear-to-br ${colors[i % colors.length]} flex items-center justify-center overflow-hidden`}
+>
+  {member.image ? (
+    <img
+      src={member.image}
+      alt={member.name}
+      className="w-full h-full object-cover"
+    />
+  ) : (
+    <div className="w-20 h-20 rounded-full bg-white/90 dark:bg-gray-800 flex items-center justify-center text-2xl font-bold text-deep-blue dark:text-white shadow-lg group-hover:scale-110 transition-transform duration-300">
+      {member.name
+        .split(' ')
+        .map((n) => n[0])
+        .join('')}
+    </div>
+  )}
+
+  <div className="absolute inset-0 bg-linear-to-t from-black/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+</div>
 
               {/* Info */}
               <div className="p-5 text-center">
