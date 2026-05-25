@@ -8,13 +8,13 @@ const testimonials = [
   {
     name: 'Muhammad Aslam',
     role: 'Beneficiary Father',
-    content: 'The foundation founded by Rehan supported my children\'s education when I could not afford it. They gave us hope and a brighter future. I am forever grateful to the young volunteers who came to our village.',
+    content: 'The foundation founded by Team supported my children\'s education when I could not afford it. They gave us hope and a brighter future. I am forever grateful to the young volunteers who came to our village.',
     rating: 5,
   },
   {
     name: 'Zubaida Bibi',
     role: 'Community Elder',
-    content: 'The medical camp organized by Umeed e Shumal saved many lives in our remote village. Rehan and her team are doing extraordinary work for our community. May Allah bless them all.',
+    content: 'The medical camp organized by Umeed e Shumal saved many lives in our remote village. Team and her team are doing extraordinary work for our community. May Allah bless them all.',
     rating: 5,
   },
   {
@@ -26,7 +26,7 @@ const testimonials = [
   {
     name: 'Dr. Shahzad',
     role: 'Medical Volunteer',
-    content: 'I have been part of multiple medical camps with Umeed e Shumal. The organization founded by Rehan is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
+    content: 'I have been part of multiple medical camps with Umeed e Shumal. The organization founded by Team is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
     rating: 5,
   },
   {

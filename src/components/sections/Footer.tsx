@@ -75,7 +75,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Rehan, supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
+              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Team, supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
             </p>
             <div className="flex items-center gap-3 mt-6">
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Facebook">

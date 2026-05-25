@@ -42,7 +42,7 @@ export default function AboutSection() {
             <span className="gradient-text">Changing Futures</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Umeed e Shumal (Hope of the North) is a grassroots, youth-led organization founded by Rehan with a simple yet powerful mission: to uplift underprivileged families, support deserving students, and provide healthcare assistance to the people of Gilgit Baltistan and surrounding areas in Gilgit-Baltistan, Pakistan.
+            Umeed e Shumal (Hope of the North) is a grassroots, youth-led organization founded by Team with a simple yet powerful mission: to uplift underprivileged families, support deserving students, and provide healthcare assistance to the people of Gilgit Baltistan and surrounding areas in Gilgit-Baltistan, Pakistan.
           </p>
         </motion.div>
 
@@ -62,7 +62,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Mission</h3>
               <p className="text-white/80 leading-relaxed">
-                Founded by Rehan, Umeed e Shumal aims to empower the youth of Gilgit Baltistan to become agents of positive change by providing a platform for education, healthcare, welfare, and community development. We strive to create a society where every family has access to basic necessities, every child has the opportunity to receive quality education, and every individual can live with dignity and hope for a better tomorrow. Our foundation stands as a beacon of hope for the people of Gilgit-Baltistan.
+                Founded by Team, Umeed e Shumal aims to empower the youth of Gilgit Baltistan to become agents of positive change by providing a platform for education, healthcare, welfare, and community development. We strive to create a society where every family has access to basic necessities, every child has the opportunity to receive quality education, and every individual can live with dignity and hope for a better tomorrow. Our foundation stands as a beacon of hope for the people of Gilgit-Baltistan.
               </p>
             </div>
           </motion.div>
@@ -81,7 +81,7 @@ export default function AboutSection() {
               </div>
               <h3 className="text-2xl font-bold mb-4">Our Vision</h3>
               <p className="text-white/80 leading-relaxed">
-                A Gilgit Baltistan where no family goes hungry, no child is deprived of education, and no individual is denied basic healthcare. Under the leadership of Rehan, we envision a community that is self-sufficient, educated, healthy, and united in the spirit of compassion and service. Through collective effort and youth leadership, we aim to transform Gilgit Baltistan into a model of community-driven development in Gilgit-Baltistan.
+                A Gilgit Baltistan where no family goes hungry, no child is deprived of education, and no individual is denied basic healthcare. Under the leadership of Team, we envision a community that is self-sufficient, educated, healthy, and united in the spirit of compassion and service. Through collective effort and youth leadership, we aim to transform Gilgit Baltistan into a model of community-driven development in Gilgit-Baltistan.
               </p>
             </div>
           </motion.div>

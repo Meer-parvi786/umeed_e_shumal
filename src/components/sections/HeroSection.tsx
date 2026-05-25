@@ -78,7 +78,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-lg sm:text-xl md:text-2xl text-white/80 max-w-3xl mx-auto mb-10 leading-relaxed"
         >
-          Founded by Rehan — A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu.
+          Founded by Team — A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu.
         </motion.p>
 
         <motion.div
