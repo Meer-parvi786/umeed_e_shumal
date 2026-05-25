@@ -8,10 +8,10 @@ const galleryItems = [
   { id: 1, title: 'Winter Relief Distribution', category: 'Welfare', image: '/images/community-help.jpg' },
   { id: 2, title: 'Students Receiving Scholarships', category: 'Education', image: '/images/education-support.jpg' },
   { id: 3, title: 'Free Medical Camp in Roundu', category: 'Healthcare', image: '/images/medical-camp.jpg' },
-  { id: 4, title: 'Team Meeting & Planning', category: 'Team', image: '/images/hero-skardu.jpg' },
+  { id: 4, title: 'Team Meeting & Planning', category: 'Team', image: '/images/hero-Gilgit Baltistan.jpg' },
   { id: 5, title: 'Ration Drive for Families', category: 'Welfare', image: '/images/community-help.jpg' },
   { id: 6, title: 'Volunteer Training Session', category: 'Volunteers', image: '/images/education-support.jpg' },
-  { id: 7, title: 'Skardu Mountain Outreach', category: 'Community', image: '/images/hero-skardu.jpg' },
+  { id: 7, title: 'Gilgit Baltistan Mountain Outreach', category: 'Community', image: '/images/hero-Gilgit Baltistan.jpg' },
   { id: 8, title: 'School Supply Distribution', category: 'Education', image: '/images/education-support.jpg' },
   { id: 9, title: 'Community Health Awareness', category: 'Healthcare', image: '/images/medical-camp.jpg' },
 ];
@@ -44,7 +44,7 @@ export default function GallerySection() {
             Moments of <span className="gradient-text">Impact</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            A glimpse into our activities, events, and the lives we touch every day in the Skardu community.
+            A glimpse into our activities, events, and the lives we touch every day in the Gilgit Baltistan community.
           </p>
         </motion.div>
 

@@ -50,7 +50,7 @@ export default function ImpactSection() {
     <section className="py-20 md:py-28 relative overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 gradient-deep" />
-      <div className="absolute inset-0 bg-[url('/images/hero-skardu.jpg')] bg-cover bg-center opacity-10" />
+      <div className="absolute inset-0 bg-[url('/images/hero-Gilgit Baltistan.jpg')] bg-cover bg-center opacity-10" />
 
       {/* Decorative elements */}
       <div className="absolute top-10 left-10 w-40 h-40 bg-sky-blue/10 rounded-full blur-3xl" />

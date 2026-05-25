@@ -44,7 +44,7 @@ export default function Navbar() {
             <span>info@umeedeshumal.org</span>
           </div>
           <div className="flex items-center gap-4">
-            <span>Skardu, Gilgit-Baltistan, Pakistan</span>
+            <span>Gilgit Baltistan, Gilgit-Baltistan, Pakistan</span>
           </div>
         </div>
       </div>

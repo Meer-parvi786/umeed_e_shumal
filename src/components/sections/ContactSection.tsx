@@ -10,7 +10,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { toast } from 'sonner';
 
 const contactInfo = [
-  { icon: MapPin, label: 'Office Address', value: 'Main Bazaar, Skardu, Gilgit-Baltistan, Pakistan' },
+  { icon: MapPin, label: 'Office Address', value: 'Main Bazaar, Gilgit Baltistan, Gilgit-Baltistan, Pakistan' },
   { icon: Phone, label: 'Phone Number', value: '+92-307-8582373' },
   { icon: Mail, label: 'Email Address', value: 'info@umeedeshumaal.org' },
   { icon: Clock, label: 'Working Hours', value: 'Mon - Sat: 9:00 AM - 6:00 PM' },
@@ -95,7 +95,7 @@ export default function ContactSection() {
             {/* Map placeholder */}
             <div className="bg-white dark:bg-gray-900 rounded-xl overflow-hidden border border-gray-100 dark:border-gray-800 aspect-video">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51908.47!2d75.63!3d35.30!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e4c2a1a1a1a1a1%3A0x1a1a1a1a1a1a1a1a!2sSkardu!5e0!3m2!1sen!2s!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51908.47!2d75.63!3d35.30!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38e4c2a1a1a1a1a1%3A0x1a1a1a1a1a1a1a1a!2sGilgit Baltistan!5e0!3m2!1sen!2s!4v1234567890"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}

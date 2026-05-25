@@ -26,7 +26,7 @@ const testimonials = [
   {
     name: 'Dr. Shahzad',
     role: 'Medical Volunteer',
-    content: 'I have been part of multiple medical camps with Umeed e Shumal. The organization founded by Team is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
+    content: 'I have been part of multiple medical camps with Umeed e Shumal. The organization founded by Team is transparent, well-organized, and truly dedicated to serving the people of Gilgit Baltistan. Highly recommended for anyone who wants to give back.',
     rating: 5,
   },
   {

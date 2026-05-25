@@ -23,11 +23,11 @@ const teamMembers: TeamMemberData[] = [
   { name: 'Shima Marzia', position: 'Media & PR Lead', bio: 'Amplifying our mission through social media and community outreach.', image: '/images/Shima.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
   { name: 'Muhammad Nasir', position: 'Field Operations Lead', bio: 'Leading on-ground welfare activities across the Gilgit Baltistan region.', image: '/images/Nasir.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
   { name: 'Dr. Kalimal', position: 'Health & Welfare Lead', bio: 'Organizing medical camps and emergency medical support.', image: '/images/Kalimal.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Syeda Huda', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Huda.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Ismat Fatima', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Ismat.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Konain', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Konain.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Diya', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Diya.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
-  { name: 'Mudassir', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Mudassir.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Mudassir', position: 'Volunteer Coordinator (Boys)', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Mudassir.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Konain', position: 'Volunteer Coordinator (Girls)', bio: 'Recruiting, training, and managing our dedicated volunteer team.', image: '/images/Konain.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Syeda Huda', position: 'Volunteer', bio: 'Dedicated and enthusiastic volunteer with a passion for helping communities and making a positive impact.', image: '/images/Huda.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Ismat Fatima', position: 'Volunteer', bio: 'Dedicated and enthusiastic volunteer with a passion for helping communities and making a positive impact.', image: '/images/Ismat.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
+  { name: 'Diya', position: 'Volunteer', bio: 'Dedicated and enthusiastic volunteer with a passion for helping communities and making a positive impact.', image: '/images/Diya.jpeg', facebook: '#', twitter: '#', instagram: '#', linkedin: '#' },
 ];
 
 const colors = [

@@ -19,12 +19,12 @@ async function seed() {
 
   // Create team members
   const teamMembers = [
-    { name: 'Fatima Baneen', position: 'Founder & President', bio: 'The visionary founder of Umeed e Shumaal, a passionate youth leader dedicated to transforming lives in Skardu through community service, education, and compassion.', displayOrder: 1 },
+    { name: 'Fatima Baneen', position: 'Founder & President', bio: 'The visionary founder of Umeed e Shumaal, a passionate youth leader dedicated to transforming lives in Gilgit Baltistan through community service, education, and compassion.', displayOrder: 1 },
     { name: 'Fatima Noor', position: 'Vice President', bio: 'Co-leading Umeed e Shumaal with a focus on sustainable development and empowering women and children in underserved communities.', displayOrder: 2 },
     { name: 'Hassan Khan', position: 'General Secretary', bio: 'Managing day-to-day operations and ensuring smooth coordination across all departments and volunteer teams.', displayOrder: 3 },
     { name: 'Amina Begum', position: 'Finance Secretary', bio: 'Overseeing all financial operations with complete transparency and accountability for every donation received.', displayOrder: 4 },
     { name: 'Bilal Shah', position: 'Media & PR Lead', bio: 'Amplifying our mission through social media, press coverage, and community outreach to build lasting partnerships.', displayOrder: 5 },
-    { name: 'Zainab Fatima', position: 'Field Operations Lead', bio: 'Leading on-ground welfare activities, distribution drives, and community support programs across Skardu region.', displayOrder: 6 },
+    { name: 'Zainab Fatima', position: 'Field Operations Lead', bio: 'Leading on-ground welfare activities, distribution drives, and community support programs across Gilgit Baltistan region.', displayOrder: 6 },
     { name: 'Usman Wazir', position: 'Volunteer Coordinator', bio: 'Recruiting, training, and managing our growing team of dedicated volunteers who make our work possible.', displayOrder: 7 },
     { name: 'Sara Hussain', position: 'Education Lead', bio: 'Developing and managing scholarship programs, educational support, and mentoring for deserving students.', displayOrder: 8 },
     { name: 'Dr. Kamran', position: 'Health & Welfare Lead', bio: 'Organizing medical camps, health awareness drives, and emergency medical support for remote communities.', displayOrder: 9 },
@@ -83,7 +83,7 @@ async function seed() {
       id: 'test-4',
       name: 'Dr. Shahzad',
       role: 'Medical Volunteer',
-      content: 'I have been part of multiple medical camps with Umeed e Shumaal. The organization founded by Fatima Baneen is transparent, well-organized, and truly dedicated to serving the people of Skardu. Highly recommended for anyone who wants to give back.',
+      content: 'I have been part of multiple medical camps with Umeed e Shumaal. The organization founded by Fatima Baneen is transparent, well-organized, and truly dedicated to serving the people of Gilgit Baltistan. Highly recommended for anyone who wants to give back.',
     },
     {
       id: 'test-5',
@@ -106,7 +106,7 @@ async function seed() {
     {
       id: 'camp-1',
       title: 'Winter Relief Drive 2025',
-      description: 'Providing warm clothing, blankets, and food supplies to 500+ families in remote areas of Skardu during the harsh winter season.',
+      description: 'Providing warm clothing, blankets, and food supplies to 500+ families in remote areas of Gilgit Baltistan during the harsh winter season.',
       goalAmount: 2000000,
       raisedAmount: 1450000,
       image: '',
@@ -122,7 +122,7 @@ async function seed() {
     {
       id: 'camp-3',
       title: 'Clean Water Initiative',
-      description: 'Installing clean water filtration systems in 15 villages across the Skardu district to ensure access to safe drinking water.',
+      description: 'Installing clean water filtration systems in 15 villages across the Gilgit Baltistan district to ensure access to safe drinking water.',
       goalAmount: 3000000,
       raisedAmount: 750000,
       image: '',
@@ -141,9 +141,9 @@ async function seed() {
   const blogPosts = [
     {
       id: 'blog-1',
-      title: 'Winter Relief Drive Successfully Completed in Skardu',
+      title: 'Winter Relief Drive Successfully Completed in Gilgit Baltistan',
       slug: 'winter-relief-drive-completed',
-      excerpt: 'Our volunteers distributed warm clothing and food supplies to over 300 families across remote villages in the Skardu district.',
+      excerpt: 'Our volunteers distributed warm clothing and food supplies to over 300 families across remote villages in the Gilgit Baltistan district.',
       content: 'Our dedicated team of 50+ volunteers worked tirelessly through the harsh winter months to deliver essential supplies to families in need. The drive covered 12 remote villages, providing warm clothing, blankets, food rations, and medical supplies. This initiative was made possible by the generous contributions of our donors and the unwavering commitment of our volunteers.',
       category: 'campaigns',
       isFeatured: true,
@@ -153,7 +153,7 @@ async function seed() {
       id: 'blog-2',
       title: 'Education Scholarships Awarded to 100 Deserving Students',
       slug: 'education-scholarships-awarded',
-      excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Skardu district, enabling them to pursue their dreams.',
+      excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Gilgit Baltistan district, enabling them to pursue their dreams.',
       content: 'In our commitment to promoting education in the region, Umeed e Shumaal has awarded full and partial scholarships to 100 deserving students. These scholarships cover tuition fees, books, uniforms, and other educational expenses. The selection process was rigorous and transparent, ensuring that the most deserving students received support.',
       category: 'education',
       isFeatured: true,

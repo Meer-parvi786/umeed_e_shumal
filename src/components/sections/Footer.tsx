@@ -46,7 +46,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <div>
             <h3 className="text-xl md:text-2xl font-bold text-white">Every Contribution Makes a Difference</h3>
-            <p className="text-white/80 mt-1">Join us in building a better future for the people of Skardu.</p>
+            <p className="text-white/80 mt-1">Join us in building a better future for the people of Gilgit Baltistan.</p>
           </div>
           <Link
             href="#donate"
@@ -75,7 +75,7 @@ export default function Footer() {
               </div>
             </div>
             <p className="text-white/70 text-sm leading-relaxed">
-              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Team, supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
+              Umeed e Shumaal (Hope of the North) is a youth-led welfare initiative founded by Team, supporting education, healthcare, and underprivileged families in Gilgit Baltistan, Gilgit-Baltistan, Pakistan. Together, we are building a stronger community.
             </p>
             <div className="flex items-center gap-3 mt-6">
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Facebook">
@@ -84,7 +84,7 @@ export default function Footer() {
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Twitter">
                 <Twitter className="h-4 w-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Instagram">
+              <a href="https://www.instagram.com/umeed_e_shumal/" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="Instagram" target='_blank'>
                 <Instagram className="h-4 w-4" />
               </a>
               <a href="#" className="w-9 h-9 rounded-full bg-white/10 hover:bg-sky-blue flex items-center justify-center transition-colors" aria-label="LinkedIn">
@@ -113,7 +113,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-start gap-3 text-sm text-white/70">
                 <MapPin className="h-4 w-4 mt-0.5 text-sky-blue shrink-0" />
-                <span>Main Bazaar, Skardu, Gilgit-Baltistan, Pakistan</span>
+                <span>Main Bazaar, Gilgit Baltistan, Gilgit-Baltistan, Pakistan</span>
               </li>
               <li className="flex items-center gap-3 text-sm text-white/70">
                 <Phone className="h-4 w-4 text-sky-blue shrink-0" />

@@ -18,17 +18,17 @@ export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "https://umeedeshumaal.org"),
   title: "Umeed e Shumaal | Together We Change Lives",
   description:
-    "Umeed e Shumaal - A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Skardu, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen. Donate, volunteer, and help us build a better community.",
+    "Umeed e Shumaal - A youth-led welfare initiative supporting education, healthcare, and underprivileged families in Gilgit Baltistan, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen. Donate, volunteer, and help us build a better community.",
   keywords: [
     "Umeed e Shumaal",
     "Fatima Baneen",
-    "Skardu charity",
+    "Gilgit Baltistan charity",
     "Gilgit-Baltistan welfare",
     "Pakistan NGO",
-    "education support Skardu",
-    "healthcare Skardu",
-    "donate Skardu",
-    "volunteer Skardu",
+    "education support Gilgit Baltistan",
+    "healthcare Gilgit Baltistan",
+    "donate Gilgit Baltistan",
+    "volunteer Gilgit Baltistan",
     "underprivileged families Pakistan",
   ],
   authors: [{ name: "Umeed e Shumaal" }],
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   openGraph: {
     title: "Umeed e Shumaal",
-    description: "Together We Can Change Lives - A youth-led welfare initiative in Skardu, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen.",
+    description: "Together We Can Change Lives - A youth-led welfare initiative in Gilgit Baltistan, Gilgit-Baltistan, Pakistan. Founded by Fatima Baneen.",
     type: "website",
     locale: "en_PK",
     siteName: "Umeed e Shumaal",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Umeed e Shumaal",
     images: ["/images/logo.png"],
-    description: "Together We Can Change Lives - Youth-led welfare initiative in Skardu. Founded by Fatima Baneen.",
+    description: "Together We Can Change Lives - Youth-led welfare initiative in Gilgit Baltistan. Founded by Fatima Baneen.",
   },
 };
 

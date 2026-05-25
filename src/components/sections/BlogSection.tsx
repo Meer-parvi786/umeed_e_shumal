@@ -6,9 +6,9 @@ import { Calendar, ArrowRight, Tag } from 'lucide-react';
 
 const blogPosts = [
   {
-    title: 'Winter Relief Drive Successfully Completed in Skardu',
+    title: 'Winter Relief Drive Successfully Completed in Gilgit Baltistan',
     slug: 'winter-relief-drive-completed',
-    excerpt: 'Our volunteers distributed warm clothing and food supplies to over 300 families across remote villages in the Skardu district under Umeed e Shumaal initiative.',
+    excerpt: 'Our volunteers distributed warm clothing and food supplies to over 300 families across remote villages in the Gilgit Baltistan district under Umeed e Shumaal initiative.',
     category: 'Campaigns',
     image: '/images/community-help.jpg',
     date: 'Dec 15, 2025',
@@ -17,7 +17,7 @@ const blogPosts = [
   {
     title: 'Education Scholarships Awarded to 100 Deserving Students',
     slug: 'education-scholarships-awarded',
-    excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Skardu district, enabling them to pursue their dreams.',
+    excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Gilgit Baltistan district, enabling them to pursue their dreams.',
     category: 'Education',
     image: '/images/education-support.jpg',
     date: 'Nov 28, 2025',

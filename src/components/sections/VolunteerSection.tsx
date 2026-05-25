@@ -99,7 +99,7 @@ ${formData.reason}
             Become a <span className="gradient-text">Volunteer</span>
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Your time and skills can transform lives. Join our growing team of 245+ volunteers and make a real impact in the Skardu community.
+            Your time and skills can transform lives. Join our growing team of 245+ volunteers and make a real impact in the Gilgit Baltistan community.
           </p>
         </motion.div>
 

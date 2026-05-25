@@ -76,7 +76,7 @@ export default function DonationSection() {
             Your <span className="gradient-text">Generosity</span> Saves Lives
           </h2>
           <p className="text-gray-600 dark:text-gray-400 text-lg leading-relaxed">
-            Every rupee you donate goes directly to supporting families, students, and communities in Skardu. 100% transparent fund usage guaranteed.
+            Every rupee you donate goes directly to supporting families, students, and communities in Gilgit Baltistan. 100% transparent fund usage guaranteed.
           </p>
         </motion.div>
 
