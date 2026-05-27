@@ -2,7 +2,9 @@
 
 import { motion, useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useRouter } from "next/navigation";
 import { Calendar, ArrowRight, Tag } from 'lucide-react';
+import Link from 'next/link';
 
 const blogPosts = [
   {
@@ -15,11 +17,11 @@ const blogPosts = [
     featured: true,
   },
   {
-    title: 'Education Scholarships Awarded to 100 Deserving Students',
+    title: 'Team Visit Five Star Boarding House, Skardu',
     slug: 'education-scholarships-awarded',
-    excerpt: 'Umeed e Shumaal has awarded educational scholarships to 100 deserving students across Gilgit Baltistan district, enabling them to pursue their dreams.',
+    excerpt: 'Our team recently visited Five Star Boarding House to share the joy of Eid with the wonderful students living there. During the visit, we distributed Eidi among the children and spent quality time with them, creating moments filled with happiness, laughter, and positivity.',
     category: 'Education',
-    image: '/images/education-support.jpg',
+    image: '/images/Gallery/visit 2.jpeg',
     date: 'Nov 28, 2025',
     featured: true,
   },
@@ -42,6 +44,7 @@ const categoryColors: Record<string, string> = {
 };
 
 export default function BlogSection() {
+  const router = useRouter();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true, margin: '-80px' });
 
@@ -106,7 +109,7 @@ export default function BlogSection() {
                 <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed line-clamp-3 mb-4">
                   {post.excerpt}
                 </p>
-                <button className="inline-flex items-center gap-1 text-sky-blue text-sm font-semibold hover:gap-2 transition-all">
+               <button onClick={() => router.push("/blog")} className="inline-flex items-center gap-1 text-sky-blue text-sm font-semibold hover:gap-2 transition-all">
                   Read More
                   <ArrowRight className="h-4 w-4" />
                 </button>

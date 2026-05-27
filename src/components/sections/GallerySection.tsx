@@ -5,15 +5,12 @@ import { useRef, useState } from 'react';
 import { X, ZoomIn, Camera } from 'lucide-react';
 
 const galleryItems = [
-  { id: 1, title: 'Winter Relief Distribution', category: 'Welfare', image: '/images/community-help.jpg' },
-  { id: 2, title: 'Students Receiving Scholarships', category: 'Education', image: '/images/education-support.jpg' },
-  { id: 3, title: 'Free Medical Camp in Roundu', category: 'Healthcare', image: '/images/medical-camp.jpg' },
-  { id: 4, title: 'Team Meeting & Planning', category: 'Team', image: '/images/hero-Gilgit Baltistan.jpg' },
-  { id: 5, title: 'Ration Drive for Families', category: 'Welfare', image: '/images/community-help.jpg' },
-  { id: 6, title: 'Volunteer Training Session', category: 'Volunteers', image: '/images/education-support.jpg' },
-  { id: 7, title: 'Gilgit Baltistan Mountain Outreach', category: 'Community', image: '/images/hero-Gilgit Baltistan.jpg' },
-  { id: 8, title: 'School Supply Distribution', category: 'Education', image: '/images/education-support.jpg' },
-  { id: 9, title: 'Community Health Awareness', category: 'Healthcare', image: '/images/medical-camp.jpg' },
+  { id: 1, title: 'Teams at Orphanage', category: 'Welfare', image: '/images/Gallery/visit.jpeg' },
+  { id: 2, title: 'Students Receiving Eidi', category: 'Education', image: '/images/Gallery/visit 6.jpeg' },
+  { id: 3, title: 'Group Photo With Team Umeed-e-Shumal', category: 'Healthcare', image: '/images/Gallery/visit 2.jpeg' },
+  { id: 4, title: 'Team Meeting & Planning', category: 'Team', image: '/images/Gallery/visit 3.jpeg' },
+  { id: 5, title: 'Celebrating Eid-Ul-Adha with Students', category: 'Welfare', image: '/images/Gallery/visit 4.jpeg' },
+  { id: 6, title: 'Volunteer Training Session', category: 'Volunteers', image: '/images/Gallery/visit 5.jpeg' },
 ];
 
 const categories = ['All', 'Welfare', 'Education', 'Healthcare', 'Volunteers', 'Team', 'Community'];
@@ -79,7 +76,7 @@ export default function GallerySection() {
               animate={isInView ? { opacity: 1, scale: 1 } : {}}
               transition={{ duration: 0.4, delay: i * 0.05 }}
               layout
-              className="group relative overflow-hidden rounded-xl cursor-pointer aspect-[4/3] bg-gray-200"
+              className="group relative overflow-hidden rounded-xl cursor-pointer aspect-4/3 bg-gray-200"
               onClick={() => setLightboxIndex(filtered.findIndex(g => g.id === item.id))}
             >
               <img
